@@ -8,6 +8,6 @@ Performed cllimate analysis about weather measurement data from weather stations
 
 /api/v1.0/tobs - JSON list of temperature observations (tobs) of most-active station from previous year.
 
-/api/v1.0/<start> - dynamic route, JSON list of minimum, average, and maximum temperatures from start date, inclusive (format: YYYY-mm-dd)
+/api/v1.0/\<start\> - dynamic route, JSON list of minimum, average, and maximum temperatures from start date, inclusive (format: YYYY-mm-dd)
 
-/api/v1.0/<start>/<end> - dynamic route, JSON list of minimum, average, and maximum temperatures from start date to end date, inclusive (format: YYYY-mm-dd)
+/api/v1.0/\<start\>/\<end\> - dynamic route, JSON list of minimum, average, and maximum temperatures from start date to end date, inclusive (format: YYYY-mm-dd)
